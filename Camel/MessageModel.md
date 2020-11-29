@@ -1,10 +1,17 @@
-#Preface
 
-![Message Recever](https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Camel_MessageModel_SenderReceiver.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Falbertorugnone%2Falbertorugnone.github.io%2Ffeatures%2Fcamel_message_model%2FCamel%2FCamel_MessageModel_SenderReceiver.drawio)
 
-#Message Model
+# Message Model
 
 ## Message
+A System uses a Message to communicate to an other System via Message Channel.
+
+![A Sender sends a message to a Receiver via Message Channel](assets/Camel_MessageModel_SenderReceiver.svg)
+
+A message flows from a Sender to a Receiver as in the shema.
+
+EIP provides a set of possible type of Message:
+[text](assets/Camel_MessageModel_MessageTypes.svg)
+- 
 
 ## Exchange
 
