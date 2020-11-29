@@ -10,7 +10,11 @@ A System uses a Message to communicate to an other System via Message Channel.
 A message flows from a Sender to a Receiver as in the shema.
 
 EIP provides a set of possible type of Message:
-[text](assets/Camel_MessageModel_MessageTypes.svg)
+- message command
+- message event
+- message document
+  
+![Message Types](assets/Camel_MessageModel_MessageTypes.svg)
 - 
 
 ## Exchange
